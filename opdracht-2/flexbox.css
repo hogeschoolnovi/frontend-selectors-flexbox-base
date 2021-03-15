@@ -1,12 +1,27 @@
 /* ======================================================
    OEFENEN MET FLEXBOX
 ========================================================= */
-
+*{
+    padding: 0;
+    margin: 0;
+}
 /* Opdracht 2.1 */
 div.one{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+div.one > p{
+    display: flex;
+    padding-bottom: 30px;
+}
+
+div.one > h3{
+    display: flex;
+    padding-bottom: 20px;
 }
 
 /* Opdracht 2.2 */
@@ -19,14 +34,47 @@ div.two{
 /* Opdracht 2.3 */
 .three{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    align-items: center;
+
 }
 
-.three > ul {
+ul#horizontal-list li{
+    display: inline-flex;
+    margin: 30px;
+}
+
+.three-a{
+    display: inline-flex;
+    margin-left: auto;
+}
+
+.login{
     display: flex;
-    flex-wrap: wrap;
-    list-style: none;
+    justify-content: center;
 }
 
+.login > *{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.login input{
+    display: flex;
+    width: 100%;
+}
+
+.five {
+    display: flex;
+    width: 1182px;
+    flex-wrap: wrap;
+    padding: 6px;
+}
+
+.art {
+    padding: 20px;
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
