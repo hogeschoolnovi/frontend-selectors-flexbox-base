@@ -76,5 +76,5 @@ ul#horizontal-list li{
     padding: 20px;
     flex-basis: 300px;
     flex-grow: 1;
-    flex-shrink: 0;
+    flex-shrink: 1;
 }
