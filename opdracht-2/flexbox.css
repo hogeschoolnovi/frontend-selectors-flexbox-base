@@ -1,3 +1,32 @@
 /* ======================================================
    OEFENEN MET FLEXBOX
 ========================================================= */
+
+/* Opdracht 2.1 */
+div.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* Opdracht 2.2 */
+div.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Opdracht 2.3 */
+.three{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.three > ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+
